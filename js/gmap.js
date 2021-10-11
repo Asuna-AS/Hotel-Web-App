@@ -114,14 +114,5 @@
             $('.nav-link').click(function() {
                 $('#mainNav').removeClass('show');
             });
-
-            // Control video
-            $('.tm-btn-play').click(function() {
-                togglePlayPause();
-            });
-
-            $('.tm-btn-pause').click(function() {
-                togglePlayPause();
-            });
             $('.tm-current-year').text(new Date().getFullYear());
         });
